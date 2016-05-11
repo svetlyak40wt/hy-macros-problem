@@ -1,7 +1,7 @@
 (defmacro run-section [header body footer]
-  `(progn (print ~header) ; this line does not affect the result
-          ~body
-          (print ~footer)))
+  `(do (print ~header) ; this line does not affect the result
+       ~body
+       (print ~footer)))
 
 
 (defn foo []

@@ -1,0 +1,1 @@
+-e git+git@github.com:hylang/hy.git@fb9a97a7e5310eac1ae356d2571287b25832f949#egg=hy

@@ -1,0 +1,34 @@
+## pre 2016-05-12
+
+It didn't work with:
+
+hy==0.11.1
+
+Python 2.7.10 (5f8302b8bf9f53056e40426f10c72151564e5b19, Nov 21 2015, 04:15:18)
+[PyPy 4.0.1 with GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.1.76)] on darwin
+
+Python 3.2.5 (b2091e973da69152b3f928bfaabd5d2347e6df46, Sep 23 2015, 09:21:00)
+[PyPy 2.4.0 with GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.72)] on darwin
+
+Python 3.5.0 (default, Oct 24 2015, 10:09:04)
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.72)] on darwin
+
+
+## 2016-05-12
+
+hy@fb9a97a7e5310eac1ae356d2571287b25832f949
+
+### РАБОТАЕТ!
+
+Python 2.7.10 (bbd45126bc691f669c4ebdfbd74456cd274c6b92, Mar 19 2016, 20:58:07)
+[PyPy 5.0.1 with GCC 4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81)] on darwin
+
+### РАБОТАЕТ!
+
+Python 3.2.5 (b2091e973da69152b3f928bfaabd5d2347e6df46, Sep 23 2015, 09:21:00)
+[PyPy 2.4.0 with GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.72)] on darwin
+
+### И с PyPy 4.0.1 тоже работает!
+
+Python 2.7.10 (5f8302b8bf9f53056e40426f10c72151564e5b19, Nov 21 2015, 04:15:18)
+[PyPy 4.0.1 with GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.1.76)] on darwin

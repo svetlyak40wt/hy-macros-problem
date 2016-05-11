@@ -1,0 +1,18 @@
+#!/bin/bash
+
+brew upgrade pypy pypy3
+
+rm -fr pypy-env
+virtualenv --python=pypy pypy-env
+pypy-env/bin/pip install -U pip
+pypy-env/bin/pip install -r requirements.txt
+
+rm -fr pypy-env3
+virtualenv --python=pypy3 pypy-env3
+pypy-env3/bin/pip install -U pip
+pypy-env3/bin/pip install -r requirements.txt
+
+rm -fr env3
+virtualenv --python=python3.5 env3
+env3/bin/pip install -U pip
+env3/bin/pip install -r requirements.txt
